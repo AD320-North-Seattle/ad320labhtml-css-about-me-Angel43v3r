@@ -13,15 +13,6 @@ h1 {
     border: solid;
 }
 
-#cook {
-    color: red;
-
-}
-
-#outdoor {
-    color: pink;
-}
-
 .box {
     display: flex;
     justify-content: space-evenly;
