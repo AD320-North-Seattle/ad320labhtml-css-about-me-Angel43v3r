@@ -1,55 +1,81 @@
 body {
     background-color: lightblue;
+    margin-right: 200px;
+    margin-left: 200px;
+    font-family: Arial, sans-serif;
 }
 
 h1 {
     color: lightblue;
     text-align: center;
     color: white;
-    background-color:rgb(237, 166, 247);
+    background-color:pink;
     font-family: 'Lucida Sans';
     font-size: 50px;
     line-height:2em;
     border: solid;
 }
 
-.box {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin: 10px;
-   
+/*Bio Fun texts*/
+
+strong {
+    color: pink;
+    text-shadow: 2px 2px 2px black;
+    font-family: calibri;
+    font-size: 20px;
+
 }
+
 
 #cs {
     color: cyan;
-    background-color: black;
-    font-family: calibri;
+    text-shadow: -1px -1px 0 black, -1px 1px 0 black, 1px -1px 0 black, 1px 1px 0 black;
 
 }
 
-#quote {
+#ee {
+    color: cyan;
+    background-color: black;
+}
+
+#text {
     font-family: cursive;
     
-    
 }
+
 
 /* Picture and sentence alignment */
 .profile {
     display: flex;
-    gap: 30px;
+    gap: 50px;
     padding: 30px;
-    max-width: 900px;
+    max-width: 1200px;
 }
 
 .leftside {
-    flex-grow: 0;
-    flex-shrink: 0;
-    flex-basis: 200px;
+    width: 250px;
+    margin-left: 50px;
 }
 
 .rightside {
-    flex: 1;
+    padding: 10px 0 20px;
+    margin-left: 50px;
+}
+
+/* Hobbies section */
+.box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    gap: 50px;
+   
+}
+
+.bio {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 ul {
@@ -57,10 +83,18 @@ ul {
     border-width: 1px;
     border-style: solid;
     border-color: black;
-    width: 200px;
+    width: 250px;
     line-height: 1.5em;
 }
 
+img {
+    width: auto;
+    height: 150px;
+}
+
+p {
+    text-indent: 30px;
+}
 .title {
     color: whitesmoke;
     font-family: 'Franklin Gothic Medium', sans-serif;
@@ -70,3 +104,16 @@ ul {
     text-align: center;
 }
 
+section {
+    text-align: center;
+}
+
+button {
+    background-color:pink;
+}
+
+footer {
+    margin: 50px;
+    text-align: center;
+    font-style: italic;
+}
